@@ -44,6 +44,7 @@ class Person {
       : name = 'Mario',
         age = 20;
 
+  // It allows to accept age as a parameter
   const Person.bar(this.age) : name = 'Bar';
 
   const Person.other({String? name, int? age})

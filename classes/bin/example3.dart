@@ -16,7 +16,7 @@ class Vehicle {
   @override // creating your own implementation of an existing function
   String toString() {
     if (runtimeType == Vehicle) {
-      return 'Vehicle with $wheelCount wheel';
+      return '$runtimeType with $wheelCount wheel';
     } else {
       return super.toString();
     }
