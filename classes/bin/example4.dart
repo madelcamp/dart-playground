@@ -15,7 +15,7 @@ class Person {
 }
 
 /// The next implmentation is similar, but with a constructor with an
-/// initializer list. Fullname was calculating upon construction an instance
+/// initializer list. Fullname was calculated upon construction an instance
 /// of person, then it can't change.
 
 // class Person {
