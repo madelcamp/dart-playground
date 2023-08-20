@@ -4,7 +4,7 @@ void main(List<String> args) {
   /// An example of an optional string below:
   const String? name = null;
   print(name);
-  print(null); // null it denotes the absence of a value
+  print(null); // null it denotes the absence of a value.
 
   // You can't do this, it's not allowed in dart.
   // const String lastName = null;
