@@ -28,7 +28,6 @@ AnimalType? animalType({required String fromStr}) {
   } catch (e) {
     return null;
   }
-  ;
 }
 
 enum AnimalType {

@@ -1,4 +1,3 @@
-import 'example6.dart';
 
 void main(List<String> args) {
   // You can also mix various types of parameters in dart.

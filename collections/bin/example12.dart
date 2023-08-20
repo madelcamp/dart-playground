@@ -33,7 +33,7 @@ void addToArrayRight() {
 
   print("=============");
 
-  final anotherWay = [...names1]..addAll(names2);
+  final anotherWay = [...names1, ...names2];
   final anotherWay2 = {...names1}..addAll(names2);
 
   print(names1);
