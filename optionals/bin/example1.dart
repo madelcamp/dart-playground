@@ -6,6 +6,6 @@ void main(List<String> args) {
   print(name);
   print(null); // null it denotes the absence of a value
 
-  // You can't do this, it's not allowed in dart
+  // You can't do this, it's not allowed in dart.
   // const String lastName = null;
 }
