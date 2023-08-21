@@ -1,6 +1,6 @@
 void main(List<String> args) {
   // Late variables are initialized only when they are used.
-  late final myValue = 10;
+  late final myValue = 100;
   print(myValue);
 
   late final yourValue = getValue();

@@ -3,6 +3,6 @@ void main(List<String> args) {
   final thatList = thisList;
   print(thisList);
   print(thatList);
-  //Invalid operation
+  //Invalid operation. You cannot initialize a constant with a final variable.
   // const someList = thatList;
 }
