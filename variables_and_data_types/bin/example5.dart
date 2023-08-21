@@ -3,4 +3,6 @@ void main(List<String> args) {
 
   /// Constanst cannot be assigned a non-constant value
   // const age2 = age;
+
+  print(age);
 }
