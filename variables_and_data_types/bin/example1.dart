@@ -1,4 +1,5 @@
 void main(List<String> args) {
+  print("hello");
   const name = 'Foo';
   print(name);
   // Invalid code
