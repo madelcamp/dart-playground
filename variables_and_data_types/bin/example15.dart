@@ -10,7 +10,7 @@ void main(List<String> args) {
   const List<int> someList = [1, 2, 3];
   print(someList);
   const Map<String, String> someMap = {'foo': 'bar'};
-  print(someMap);
+  print(someMap['foo']);
   const Set<int> someSet = {1, 2, 3};
   print(someSet.length);
   const dynamic someNull = null;
