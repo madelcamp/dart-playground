@@ -1,5 +1,5 @@
 void main(List<String> args) {
-  // finals only prevent reassigning, but allow modifying internally.
+  // finals only prevent reassigning, but allows modifying internally.
   final age = [1, 2, 3];
   print(age);
 
