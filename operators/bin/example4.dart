@@ -2,11 +2,11 @@ void main(List<String> args) {
   // binary infix operators
   const age = 50;
   print(age + 20); // it's NOT changing te value of the "age" variable
-  print(age - 20); // Idem for all
+  print(age - 20); // Idem for all, they are just returning the result
   print(age * 20);
   print(age / 20);
-  print(age ~/ 20);
-  print(age % 20);
+  print(age ~/ 20); // Truncating division
+  print(age % 20); // remainder
   print(age == 20);
   print(age != 20);
 
@@ -46,4 +46,5 @@ void main(List<String> args) {
   ///
   /// sift left by 2
   /// 1000 1100
+  print(age);
 }

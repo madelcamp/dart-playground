@@ -6,18 +6,18 @@ void main(List<String> args) {
   var age = 30;
   print(--age); // it is mutating the value of age as well, and returning.
   print(!true); // it is not changing the contents of true, only returning.
-  print(!false);
-  print(++age);
+  print(!false); // it is not changing the contents of true, only returning.
+  print(++age); // it is mutating the value of age as well, and returning.
   print(age);
 
   // Unary bitwise complement prefix operator
   print(~1); // flips the values of binary representation
 
   /// (0000 0000) (0000 0000) (0000 0000) (0000 0001)
-  /// (1111 1111) (1111 1111) (1111 1111) (1111 1111)
+  /// (1111 1111) (1111 1111) (1111 1111) (1111 1110)
 
-  print(-age); // it negates it, but it doesn't returns the value,
-  //it doesn't mutate the value
+  print(-age); // it negates it and returns the value, but it doesn't mutate
+  //the value
   print(age);
   print(-(-age));
 }

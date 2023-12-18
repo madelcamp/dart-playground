@@ -1,5 +1,5 @@
 void main(List<String> args) {
-  // print('Hello ' + 2); does't makes sense
+  // print('Hello ' + 2); // does't makes sense
 
   // Compound assigment operator
   var myAge = 20;
