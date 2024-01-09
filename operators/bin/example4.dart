@@ -1,7 +1,7 @@
 void main(List<String> args) {
   // binary infix operators
-  const age = 50;
-  print(age + 20); // it's NOT changing te value of the "age" variable
+  const age = 50; // assigning operator
+  print(age + 20); // it's NOT changing the value of the "age" variable
   print(age - 20); // Idem for all, they are just returning the result
   print(age * 20);
   print(age / 20);
