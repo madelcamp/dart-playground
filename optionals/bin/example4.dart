@@ -1,5 +1,5 @@
 void main(List<String> args) {
-  // Nullable or optionals values by default are actually null
+  // Nullable or optionals values by default are initialized to null
 
   // Invalid example. "a" must be initialized before it can be used.
   // int a;
@@ -11,6 +11,8 @@ void main(List<String> args) {
   // Null aware assignment operator (it's a compound assignment operator)
 
   String? name;
+
+  // name = "Mario";
 
   // Null aware assignment operator (it's a compound assignment operator)
   // Asignns the value on the right, to the variable on the left, only if the

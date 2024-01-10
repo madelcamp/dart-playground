@@ -2,9 +2,11 @@ void main(List<String> args) {
   // Null aware operator
   /// if you want to access proterties of a variable that is an optional, then
   /// you would need to use the null aware operator
-  String? lastName;
-  print(lastName?.length);
-
+  ///
+  print("*******");
+  String? lastName = "DC";
+  print(lastName?.length); // to access to nullable
+  print("+++++++");
   String? nullName;
   // String? foo;
   print(nullName ?? 'Foo'); // if nullName is NULL, it gest assigned 'Foo'
