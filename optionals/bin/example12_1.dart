@@ -1,4 +1,4 @@
-// Improved version of the code
+// Improved version of the code of the last example.
 
 void main(List<String> args) {
   String? firstName = 'Mario';

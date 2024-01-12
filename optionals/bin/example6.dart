@@ -19,7 +19,7 @@ void main(List<String> args) {
   // final bla = names2.isEmpty ? null : names2.first;
   // print(bla);
 
-  // Another fix
+  // Another fix with issues
   // List<String> names2 = [];
   // final bla = names2.firstOrNull;
   // print(bla);

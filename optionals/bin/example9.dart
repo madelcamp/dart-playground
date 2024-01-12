@@ -1,11 +1,14 @@
 void main(List<String> args) {
   String? lastName;
+  print(lastName);
 
   void changeLastName() {
     lastName = 'Bar';
   }
 
   changeLastName();
+
+  print(lastName);
 
   final foo = lastName?.contains('Bar');
 

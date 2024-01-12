@@ -1,7 +1,7 @@
 void main(List<String> args) {
   /// You can promote a type to NOT-NULLABLE, by checking first
   /// if it is null or not.
-  final String? firstName = null;
+  final String? firstName = "Mario y Liza";
 
   if (firstName == null) {
     print('firstName value is null');

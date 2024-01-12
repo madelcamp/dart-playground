@@ -3,7 +3,7 @@ void main(List<String> args) {
 
   // it optionally return a string or a null.
   String? getFullNameOptional() {
-    return null;
+    return "Mario y Liza";
   }
 
   String getFullName() {

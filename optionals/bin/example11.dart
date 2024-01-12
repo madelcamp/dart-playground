@@ -9,7 +9,7 @@ void main(List<String> args) {
 }
 
 String getFullName(String? firstName, String? lastName) =>
-    withAll([firstName, lastName], (names) => names.join()) ?? 'Empty';
+    withAll([firstName, lastName], (names) => names.join(' ')) ?? 'Empty';
 
 /// A function that takes a list of optional values and then calls a
 /// callbakc function if all of those values are not null.
